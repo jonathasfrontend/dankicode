@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    width: 100%;
+    padding: 0 2%;
+    height: 60px;
+    background-color: #212343;
+}
+.header .img img{
+    margin: 19px;
+}
+
+.banner{
+    width: 100%;
+    height: 557px;
+    background-image: url('../img/header_bg.png');
+    background-position: center;
+    background-size: cover;
+}
+.banner .form{
+    width: 400px;
+    height: calc(90% + 0px);
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 10px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner .form h2{
+    font-size: 23px;
+    font-weight: 100;
+}
+.banner .form .input-container{
+    margin-top: 20px;
+}
+.banner .form .input-container span{
+    display: inline-block;
+    width: 100%;
+    color: #bbbbbb;
+    font-size: 17px;
+}
+.banner .form .input-container input{
+    width: 344px;
+    height: 55px;
+    outline: none;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+}
+.banner .form p{
+    display: inline-block;
+    width: 100%;
+    color: #bbbbbb;
+    font-size: 17px;
+    margin: 20px 0;
+}
+.banner .form button{
+    color: #ffffff;
+    width: 280px;
+    height: 56px;
+    font-size: 25px;
+    display: inline-block;
+    background-color: #363a6d;
+    border: none;
+    border-bottom: 5px solid #4a5097;
+    cursor: pointer;
+}
+.banner .form button:hover{
+    background-color: #323665;
+}
+.banner .back-list{
+    position: absolute;
+    width: 700px;
+    height: 40%;
+    background-color: #2123439a;
+    margin: 6% 0 6% 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner .back-list ul li{
+    margin: 40px 80px;
+    max-width: 800px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.sobre{
+    width: 100%;
+    height: 40vh;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sobre h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+.sobre p{
+    max-width: 800px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.sobre img{
+    max-width: 30px;
+    margin-bottom: -50px;
+}
+
+.contaiber-icons{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contaiber-icons h1{
+    font-size: 30px;
+    font-weight: 300;
+    color: #5f4a97;
+}
+.contaiber-icons backicons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.contaiber-icons backicons .icons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+}
+.contaiber-icons backicons .icons img{
+    max-width: 80px;
+}
+.contaiber-icons backicons .icons p{
+    max-width: 700px;
+    text-align: center;
+}
+
+.bootom{
+    width: 100%;
+    height: 10vh;
+    border-top: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bootom h3{
+    font-size: 20px;
+    color: #aaa;
+    font-weight: 300;
+}
+.bootom p{
+    font-size: 18px;
+    color: #aaa;
+    font-weight: 300;
+}
